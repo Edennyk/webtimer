@@ -1,0 +1,85 @@
+body, button, input {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+     margin: 80px 250px 0;
+     background: linear-gradient(to right,#D2CDD3, #E8FAA6);
+}
+
+h1{
+    font-weight: 800;
+    font-size: 74px;
+}
+
+#controls{
+    display: inline-block;
+    width: 50%;
+    border-right: 1px solid rgba(0, 0, 0, .4);
+    padding-bottom: 42px;
+    padding-right: 42px;
+}
+
+.input-group {
+    margin: 26px 0;
+}
+
+label{
+    display: inline-block;
+    width: 24%;
+    font-size: 30px;
+    padding: 12px;
+}
+
+input{
+    width: 60%;
+    font-size: 30px;
+    border: none;
+    border-bottom: 1px solid;
+    font-weight: 200;
+    outline: none;
+    background-color: #D9DBC5;
+}
+
+input:disabled{
+    background-color: #D9DBC5;
+    opacity: .6;
+}
+
+button{
+    margin: 20px 5px;
+    font-size: 20px;
+    padding: 12px 80px;
+    background-color: #222;
+    color: wheat;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+}
+
+button:hover{
+    opacity: .9;
+}
+
+button:disabled{
+    opacity: .3;
+}
+
+h2{
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 400;
+    font-size: 144px;
+    margin: 18px 0;
+    padding-left: 150px;
+}
+.alarmCheck label{
+    font-size: 18px;
+    padding: 8px;
+   
+}
+#sound{
+   
+    width: 20px;
+    height: 16px;
+}
